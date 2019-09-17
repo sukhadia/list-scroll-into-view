@@ -1,0 +1,22 @@
+h1, h2 {
+  font-family: Lato;
+}
+
+ul {
+  overflow: auto;
+  max-height: 250px;
+  list-style: none;
+  width: 50%;
+  
+}
+
+li {
+    border: 2px solid gray;
+    border-bottom: none;
+    padding: 20px;
+
+  }
+
+li.active {
+  background-color: lightgray;
+}
